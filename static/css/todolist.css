@@ -1,0 +1,73 @@
+body {
+    background-color: #3B4252;
+}
+
+.outer-div {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    animation: ease-out 200ms;
+    display: none;
+}
+
+.inner-div {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.form-field-div {
+    margin: 10px 0px;
+}
+
+.form-spacing {
+    border: solid 1px lightgray;
+    border-radius: 2%;
+    margin-bottom: 10px;
+    padding: 20px 20px 60px 20px;
+}
+
+.border-grey {
+    border-color: gray;
+}
+
+.right-aligned {
+    display: flex;
+    float: right;
+}
+
+.x-icon-button {
+    display: flex;
+    float: right;
+    border: none;
+    background-color: white;
+}
+
+.task {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #2E3440;
+    width: 40vw;
+    margin: 10px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+}
+
+.task_content, .task_due_date {
+    margin: 0px;
+    color: #f0f0f0;
+}
+
+.task_content {
+    font-size: 25px;
+}
+
+.task_delete_button {
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: #fc4242;
+    font-size: 21px;
+    margin-top: -3px;
+}

@@ -1,0 +1,16 @@
+{
+  "todolist": [
+    {
+      "task": "Complete guided project for the week",
+      "due_date": "",
+      "submit": "",
+      "id": 0
+    },
+    {
+      "task": "Complete this week's simnets",
+      "due_date": "",
+      "submit": "",
+      "id": 1
+    }
+  ]
+}
